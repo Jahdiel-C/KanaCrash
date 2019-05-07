@@ -106,7 +106,7 @@ for(i = 0; i < length; i++)
 			text = text + "ji";
 			break;
 		case "づ" : case "ヅ" :
-			text = text + "zu";
+			text = text + "dzu";
 			break;
 		case "で" : case "デ" :
 			text = text + "de";

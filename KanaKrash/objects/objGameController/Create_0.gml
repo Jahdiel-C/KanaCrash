@@ -1,4 +1,4 @@
-gameOver = false;
+timeUp = false;
 global.seconds = 0;
 global.minutes = 0;
 

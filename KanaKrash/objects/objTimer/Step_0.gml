@@ -1,4 +1,4 @@
-if(!objGameController.gameOver)
+if(!objGameController.timeUp)
 {
 	global.seconds -= 1/room_speed;
 
