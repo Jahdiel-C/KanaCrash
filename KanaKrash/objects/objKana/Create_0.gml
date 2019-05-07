@@ -1,6 +1,15 @@
 lowEnd = 0;
+fallSpeed = 1;
 highEnd = 0;
 level = objGameController.level;
+list = ds_list_create();
+
+if(objGameController.hiraGame)
+	list = objGameController.hiraganaList;
+else if(objGameController.kataGame)
+	list = objGameController.katakanaList;
+else if(objGameController.wordGame)
+	list = objGameController.wordList;
 
 switch(level)
 {
@@ -38,9 +47,8 @@ switch(level)
 		break;
 	default :
 		lowEnd = 0;
-		highEnd = 70;
+		highEnd = ds_list_size(list) - 1;
 }
 
-currentKana = ds_list_find_value(objGameController.hiraganaList, 
-			  irandom_range(lowEnd, highEnd));
-vspeed = 1;
+randomize();
+currentKana = ds_list_find_value(list, irandom_range(lowEnd, highEnd));

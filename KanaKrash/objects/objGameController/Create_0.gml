@@ -1,4 +1,6 @@
-gameOver = false
+gameOver = false;
+global.seconds = 0;
+global.minutes = 0;
 
 // Which game?
 hiraGame = false;

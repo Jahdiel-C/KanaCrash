@@ -9,217 +9,217 @@ for(i = 0; i < length; i++)
 	
 	switch(currentKana)
 	{
-		case "あ" :
+		case "あ" : case "ア" :
 			text = text + "a";
 			break;
-		case "い" :
+		case "い" : case "イ" :
 			text = text + "i";
 			break;
-		case "う" :
+		case "う" : case "ウ" :
 			text = text + "u";
 			break;
-		case "え" :
+		case "え" : case "エ" :
 			text = text + "e";
 			break;
-		case "お" :
+		case "お" : case "オ" :
 			text = text + "o";
 			break;
-		case "か" :
+		case "か" : case "カ" :
 			text = text + "ka";
 			break;
-		case "き" :
+		case "き" : case "キ" :
 			text = text + "ki";
 			break;
-		case "く" :
+		case "く" : case "ク" :
 			text = text + "ku";
 			break;
-		case "け" :
+		case "け" : case "ケ" :
 			text = text + "ke";
 			break;
-		case "こ" :
+		case "こ" : case "コ" :
 			text = text + "ko";
 			break;
-		case "が" :
+		case "が" : case "ガ" :
 			text = text + "ga";
 			break;
-		case "ぎ" :
+		case "ぎ" : case "ギ" :
 			text = text + "gi";
 			break;
-		case "ぐ" :
+		case "ぐ" : case "グ" :
 			text = text + "gu";
 			break;
-		case "げ" :
+		case "げ" : case "ゲ" :
 			text = text + "ge";
 			break;
-		case "ご" :
+		case "ご" : case "ゴ" :
 			text = text + "go";
 			break;
-		case "さ" :
+		case "さ" : case "サ" :
 			text = text + "sa";
 			break;
-		case "し" :
+		case "し" : case "シ" :
 			text = text + "shi";
 			break;
-		case "す" :
+		case "す" : case "ス" :
 			text = text + "su";
 			break;
-		case "せ" :
+		case "せ" : case "セ" :
 			text = text + "se";
 			break;
-		case "そ" :
+		case "そ" : case "ソ" :
 			text = text + "so";
 			break;
-		case "ざ" :
+		case "ざ" : case "ザ" :
 			text = text + "za";
 			break;
-		case "じ" :
+		case "じ" : case "ジ" :
 			text = text + "ji";
 			break;
-		case "ず" :
+		case "ず" : case "ズ" :
 			text = text + "zu";
 			break;
-		case "ぜ" :
+		case "ぜ" : case "ゼ" :
 			text = text + "ze";
 			break;
-		case "ぞ" :
+		case "ぞ" : case "ゾ" :
 			text = text + "zo";
 			break;
-		case "た" :
+		case "た" : case "タ" :
 			text = text + "ta";
 			break;
-		case "ち" :
+		case "ち" : case "チ" :
 			text = text + "chi";
 			break;
-		case "つ" :
+		case "つ" : case "ツ" :
 			text = text + "tsu";
 			break;
-		case "て" :
+		case "て" : case "テ" :
 			text = text + "te";
 			break;
-		case "と" :
+		case "と" : case "ト" :
 			text = text + "to";
 			break;
-		case "だ" :
+		case "だ" : case "ダ" :
 			text = text + "da";
 			break;
-		case "ぢ" :
+		case "ぢ" : case "ヂ" :
 			text = text + "ji";
 			break;
-		case "づ" :
+		case "づ" : case "ヅ" :
 			text = text + "zu";
 			break;
-		case "で" :
+		case "で" : case "デ" :
 			text = text + "de";
 			break;
-		case "ど" :
+		case "ど" : case "ド" :
 			text = text + "do";
 			break;
-		case "な" :
+		case "な" : case "ナ" :
 			text = text + "na";
 			break;
-		case "に" :
+		case "に" : case "ニ" :
 			text = text + "ni";
 			break;
-		case "ぬ" :
+		case "ぬ" : case "ヌ" :
 			text = text + "nu";
 			break;
-		case "ね" :
+		case "ね" : case "ネ" :
 			text = text + "ne";
 			break;
-		case "の" :
+		case "の" : case "ノ" :
 			text = text + "no";
 			break;
-		case "は" :
+		case "は" : case "ハ" :
 			text = text + "ha";
 			break;
-		case "ひ" :
+		case "ひ" : case "ヒ" :
 			text = text + "hi";
 			break;
-		case "ふ" :
+		case "ふ" : case "フ" :
 			text = text + "fu";
 			break;
-		case "へ" :
+		case "へ" : case "ヘ" :
 			text = text + "he";
 			break;
-		case "ほ" :
+		case "ほ" : case "ホ" :
 			text = text + "ho";
 			break;
-		case "ば" :
+		case "ば" : case "バ" :
 			text = text + "ba";
 			break;
-		case "び" :
+		case "び" : case "ビ" :
 			text = text + "bi";
 			break;
-		case "ぶ" :
+		case "ぶ" : case "ブ" :
 			text = text + "bu";
 			break;
-		case "べ" :
+		case "べ" : case "ベ" :
 			text = text + "be";
 			break;
-		case "ぼ" :
+		case "ぼ" : case "ボ" :
 			text = text + "bo";
 			break;
-		case "ぱ" :
+		case "ぱ" : case "パ" :
 			text = text + "pa";
 			break;
-		case "ぴ" :
+		case "ぴ" : case "ピ" :
 			text = text + "pi";
 			break;
-		case "ぷ" :
+		case "ぷ" : case "プ" :
 			text = text + "pu";
 			break;
-		case "ぺ" :
+		case "ぺ" : case "ペ" :
 			text = text + "pe";
 			break;
-		case "ぽ" :
+		case "ぽ" : case "ポ" :
 			text = text + "po";
 			break;
-		case "ま" :
+		case "ま" : case "マ" :
 			text = text + "ma";
 			break;
-		case "み" :
+		case "み" : case "ミ" :
 			text = text + "mi";
 			break;
-		case "む" :
+		case "む" : case "ム" :
 			text = text + "mu";
 			break;
-		case "め" :
+		case "め" : case "メ" :
 			text = text + "me";
 			break;
-		case "も" :
+		case "も" : case "モ" :
 			text = text + "mo";
 			break;
-		case "や" :
+		case "や" : case "ヤ" :
 			text = text + "ya";
 			break;
-		case "ゆ" :
+		case "ゆ" : case "ユ" :
 			text = text + "yu";
 			break;
-		case "よ" :
+		case "よ" : case "ヨ" :
 			text = text + "yo";
 			break;
-		case "ら" :
+		case "ら" : case "ラ" :
 			text = text + "ra";
 			break;
-		case "り" :
+		case "り" : case "リ" :
 			text = text + "ri";
 			break;
-		case "る" :
+		case "る" : case "ル" :
 			text = text + "ru";
 			break;
-		case "れ" :
+		case "れ" : case "レ" :
 			text = text + "re";
 			break;
-		case "ろ" :
+		case "ろ" : case "ロ" :
 			text = text + "ro";
 			break;
-		case "わ" :
+		case "わ" : case "ワ" :
 			text = text + "wa";
 			break;
-		case "を" :
+		case "を" : case "ヲ" :
 			text = text + "wo";
 			break;
-		case "ん" :
+		case "ん" : case "ン" :
 			text = text + "n";
 			break;
 		default :
