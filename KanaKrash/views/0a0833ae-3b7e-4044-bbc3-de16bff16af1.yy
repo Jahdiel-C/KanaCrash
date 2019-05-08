@@ -6,7 +6,9 @@
     "children": [
         "66e04f6e-0f6d-40f0-9b27-54ab1623b509",
         "488b6466-6317-40b1-8298-446c3fea2ecd",
-        "8603abab-f22b-4183-965e-d168b3fee097"
+        "8603abab-f22b-4183-965e-d168b3fee097",
+        "17f98383-3e66-4b22-90fd-24503c65271c",
+        "d0ead4fb-42be-4ef6-851e-461bf4913d0a"
     ],
     "filterType": "GMSprite",
     "folderName": "InGame",

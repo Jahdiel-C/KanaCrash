@@ -11,6 +11,7 @@ wordGame = false;
 playerLives = 0;
 level = 1;
 global.lastKana = "";
+kanaPositions = ds_queue_create();
 
 
 //Kana and Word List

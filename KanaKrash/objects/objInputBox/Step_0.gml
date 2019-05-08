@@ -1,3 +1,5 @@
+x = xstart + objLaser.distFromStart;
+
 if(keyboard_check(vk_anykey) && string_length(text) < 10)
 {
 	text = text + string(keyboard_string);
