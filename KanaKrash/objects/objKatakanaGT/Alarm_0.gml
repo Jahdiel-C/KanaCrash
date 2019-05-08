@@ -3,4 +3,4 @@
 objGameController.hiraGame = false;
 objGameController.kataGame = true;
 objGameController.wordGame = false;
-room_goto(rmGame);
+room_goto(rmLevel);

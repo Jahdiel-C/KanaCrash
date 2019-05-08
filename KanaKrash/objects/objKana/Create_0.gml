@@ -50,7 +50,12 @@ switch(level)
 }
 
 randomize();
-currentKana = ds_list_find_value(list, irandom_range(lowEnd, highEnd));
+do
+{
+	currentKana = ds_list_find_value(list, irandom_range(lowEnd, highEnd));
+} until (global.lastKana != currentKana);
+
+global.lastKana = currentKana;
 
 switch(currentKana)
 {

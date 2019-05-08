@@ -8,9 +8,9 @@ kataGame = false;
 wordGame = false;
 
 // In-game Variables
-playerHealth = 0;
-time = 0;
-level = 0;
+playerLives = 0;
+level = 1;
+global.lastKana = "";
 
 
 //Kana and Word List

@@ -1,0 +1,1 @@
+if room == rmGame then timeUp = false;
