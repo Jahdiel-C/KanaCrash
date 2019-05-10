@@ -8,7 +8,8 @@ kataGame = false;
 wordGame = false;
 
 // In-game Variables
-playerLives = 0;
+score = 0;
+lives = 5;
 level = 1;
 global.lastKana = "";
 kanaPositions = ds_queue_create();

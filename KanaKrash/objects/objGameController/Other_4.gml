@@ -1,1 +1,6 @@
-if room == rmGame then timeUp = false;
+if(room = rmGame)
+{
+	timeUp = false;
+	global.seconds = 10;
+	global.minutes = 1;
+}

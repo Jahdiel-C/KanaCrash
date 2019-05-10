@@ -5,16 +5,6 @@
     "name": "objKana",
     "eventList": [
         {
-            "id": "38650875-4f40-4f03-8c34-3b7ae238c082",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "6f85ffff-be1e-457e-92b8-fa16d3949469"
-        },
-        {
             "id": "95156f10-826e-4810-96a0-85d1338f02fa",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "6f85ffff-be1e-457e-92b8-fa16d3949469"
+        },
+        {
+            "id": "45020992-bd32-43b5-a6a8-5d1660c1623d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "42129b7e-2182-49a9-a4fd-455f908f7d96",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "6f85ffff-be1e-457e-92b8-fa16d3949469"
         }
     ],
